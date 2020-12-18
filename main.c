@@ -12,7 +12,7 @@
 void update(int time) {
     while (true) {
         system("bash deploy.sh");
-        printf("Update Complete! Next update is scheduled in %d hours, and %d minutes", TIME_HOURS, TIME_MINUTES)
+        printf("Update Complete! Next update is scheduled in %d hours, and %d minutes", TIME_HOURS, TIME_MINUTES);
         sleep((unsigned int) time);
     }
 }
